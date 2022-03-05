@@ -134,7 +134,7 @@ export default function Music() {
 
             <Container>
                 <figcaption className="audio__title_composer">
-                <span className="audio_title">Symphony no. 5 II. Tempo Andante, ma rubato</span>
+                <span className="audio_title">Symphony no. 5 III. Andante mosso, quasi allegretto</span>
                 <div>
                     <span className="black__bg composer">
                     Jean Sibelius
@@ -151,7 +151,7 @@ export default function Music() {
 
             <Container>
                 <figcaption className="audio__title_composer">
-                <span className="audio_title">Symphony no. 5 III. - IV. Vivacissimo - Finale</span>
+                <span className="audio_title">Symphony no. 5 IV. Allegro molto</span>
                 <div>
                     <span className="black__bg composer">
                     Jean Sibelius
