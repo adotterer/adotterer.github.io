@@ -1,0 +1,10 @@
+h1, h2, ul, li{
+    margin: 0;
+    padding: 0;
+
+}
+
+a, a:active, a:focus, a:hover, a:link {
+    color: unset;
+    text-decoration: unset;
+}

@@ -1,0 +1,116 @@
+header {
+    color: var(--third-color);
+    padding: 0.4em;
+    display: flex;
+    height: 30%;
+    margin-bottom: 1.3em;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 0 2px var(--third-color);
+}
+
+header * {
+    z-index: 2;
+}
+
+header::before {
+    background: linear-gradient(0.1turn,var(--background-color),var(--second-color),var(--main-color));
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:0;
+   
+    /* border-radius: 2em; */
+    opacity: 0.45;
+}
+
+@keyframes animate_background {
+    from  {
+        background-position-y: 0;
+    }
+    to {
+        background-position-y: 100%;
+    }
+}
+
+header::after {
+    animation: animate_background 20s linear infinite;
+    background-image: url("./binary.png");
+    content: "";
+    background-size: 26rem;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:0;
+    transition: all 1s linear;
+    opacity: 0.04;
+}
+
+header > ul {
+    display: flex;
+    flex: 1 2 50%;
+    /* border: 2px solid blue; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > ul > li {
+    list-style-type: none;
+    padding: .5em;
+    transition: all 0.15s linear;
+    border-radius: .6em;
+    font-size: 1.35em;
+}
+
+header > ul > li:hover {
+    cursor: pointer;
+    /* border-right: 1px solid var(--font-color);
+    border-left: 1px solid var(--font-color); */
+    background-color:var(--highlight-a-color);
+ 
+}
+.name_title {
+    flex: 2 1 30%;
+    display: flex;
+    padding: 0.4em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.name_title div {
+    display: flex;
+}
+.name_title h1, .name_title h2 {
+    text-align: center;
+}
+
+.name_title h2 {
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        flex-direction: column;
+        padding: 0.25em;
+    }
+    
+    .name_title {
+        text-align: center;
+        /* border-bottom: rgb(215, 248, 220) 1px solid; */
+        padding-bottom: 0.6em;
+    }
+    .name_title > h1 {
+        font-size: 1.4em;
+    }
+    .name_title h2 {
+        font-size: 0.9em;
+    }
+}
