@@ -169,7 +169,7 @@ export default function Music() {
 
             <Container>
                 <figcaption className="audio__title_composer">
-                <span className="audio_title">The Italian Girl in Algiers</span>
+                <span className="audio_title">The Italian Girl in Algiers Overture</span>
                 <div>
                     <span className="black__bg composer">
                     Gioachino Rossini
