@@ -99,7 +99,7 @@ header > ul > li:hover {
 @media screen and (max-width: 700px) {
     header {
         flex-direction: column;
-        padding: 0.25em;
+        padding: 0.2em;
     }
     
     .name_title {
@@ -112,5 +112,14 @@ header > ul > li:hover {
     }
     .name_title h2 {
         font-size: 0.9em;
+    }
+
+    header > ul > li {
+        list-style-type: none;
+        padding: .3em;
+        transition: all 0.15s linear;
+        border-radius: .6em;
+        font-size: 1em;
+        white-space: nowrap;
     }
 }
