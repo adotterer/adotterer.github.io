@@ -9,6 +9,7 @@
     position: relative;
     opacity: 1;
     color: var(--third-color);
+    transition: all 0.2s linear;
 }
 
 .home::after {
@@ -23,6 +24,7 @@
     z-index:0;
     border-radius: 2em;
     opacity: 0.4;
+    transition: all 0.2s linear;
 }
 
 .home > div {
@@ -32,6 +34,7 @@
     align-items: center;
     min-height: 100%;
     z-index: 2;
+    transition: all 0.2s linear;
 }
 
 .home > div:nth-of-type(1) {
