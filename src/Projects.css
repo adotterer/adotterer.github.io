@@ -9,6 +9,7 @@
 
 .feature {
     margin-bottom: 1em;
+    min-height: 10em;
     max-height: 10em;
     position:relative;
     overflow: hidden;
