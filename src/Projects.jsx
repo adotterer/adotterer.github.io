@@ -1,5 +1,5 @@
 import Container from "./Container"
-import {FaExternalLinkAlt, FaGithub} from "react-icons/fa"
+import {FaLink, FaGithub} from "react-icons/fa"
 
 const imgArr = ["https://mshippoboe.s3.us-west-1.amazonaws.com/fido_finder.f47bcfe0.png",
    "https://mshippoboe.s3.us-west-1.amazonaws.com/airbnb_og_meta.12a2c027.png" ,
@@ -9,7 +9,7 @@ const imgArr = ["https://mshippoboe.s3.us-west-1.amazonaws.com/fido_finder.f47bc
 function FeatureLinkIcons({liveURL, codeURL}) {
     return (
         <div className="feature_link_icons">
-            <a target="_" href={liveURL}><FaExternalLinkAlt /></a>
+            <a target="_" href={liveURL}><FaLink /></a>
             <a target="_" href={codeURL}><FaGithub /></a>
         </div>
         )

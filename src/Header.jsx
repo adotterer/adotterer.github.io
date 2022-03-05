@@ -12,7 +12,7 @@ export default function Header() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><Link to="/music">Music</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><a target="_" href="https://mshippoboe.s3.us-west-1.amazonaws.com/ANDREW_DOTTERER_RESUME+(1).pdf">Download CV</a></li>
         </ul>
     </header>
 }
