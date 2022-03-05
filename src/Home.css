@@ -54,7 +54,7 @@
 
 .profile_pic {
     width: 100%;
-    animation: animate_pic 1.2s linear 0.1s 1;
+    /* animation: animate_pic 1.2s linear 0.1s 1; */
 }
 
 @media (max-width: 700px) {
