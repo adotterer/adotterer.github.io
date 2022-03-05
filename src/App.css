@@ -4,6 +4,7 @@
 @import url("./Header.css");
 @import url("./Container.css");
 @import url("./Projects.css");
+@import url("./Music.css");
 
 * {
   font-family: byker, sans-serif;

@@ -1,11 +1,173 @@
-import BinaryContainer from "./Container"
+import Container from "./Container"
 
+const audioArr = ["https://mshippoboe.s3.us-west-1.amazonaws.com/AD+Recital+2+Telemann+1.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/AD+Recital+2+Telemann+2.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/AD+Recital+2+Telemann+3.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/AD+Recital+2+Telemann+4.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/AD+Recital+2+Mozart+1.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/AD+Recital+2+Mozart+2.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/AD+Recital+2+Mozart+3.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/Sibelius+II.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/Sibelius+III.mp3"
+                ]
 export default function Music() {
     return (
-    <BinaryContainer>
         <div className="music_container">
-        Coming soon!
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Fantasia No. 2 in A Minor I. Grave</span>
+                <div>
+                    <span className="black__bg composer">
+                    Georg Philipp Telemann
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[0]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Andrew Dotterer, oboe (live)</span>
+                </figcaption>
+            </Container>
+
+            <Container>
+            <figcaption className="audio__title_composer">
+              <span className="audio_title">Fantasia No. 2 in A Minor II. Vivave</span>
+              <div>
+                <span className="black__bg composer">
+                Georg Philipp Telemann
+                </span>
+              </div>
+            </figcaption>
+            
+            <audio controls src={audioArr[1]}></audio>
+            
+            <figcaption className="audio__performers">
+              <span className="black__bg">Andrew Dotterer, oboe (live)</span>
+            </figcaption>
+            </Container>
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Fantasia No. 2 in A Minor III. Adagio</span>
+                <div>
+                    <span className="black__bg composer">
+                    Georg Philipp Telemann
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[2]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Andrew Dotterer, oboe (live)</span>
+                </figcaption>
+            </Container>
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Fantasia No. 2 in A Minor IV. Allegro</span>
+                <div>
+                    <span className="black__bg composer">
+                    Georg Philipp Telemann
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[3]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Andrew Dotterer, oboe (live)</span>
+                </figcaption>
+            </Container>
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Oboe Concerto in C Major 1. Allegro aperto</span>
+                <div>
+                    <span className="black__bg composer">
+                    Wolfgang Amadeus Mozart
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[4]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Andrew Dotterer, oboe (live) <br /> (Cadenzas by Andrew)</span>
+                </figcaption>
+            </Container>
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Oboe Concerto in C Major 2. Adagio non troppo</span>
+                <div>
+                    <span className="black__bg composer">
+                    Wolfgang Amadeus Mozart
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[5]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Andrew Dotterer, oboe (live)</span>
+                </figcaption>
+            </Container>
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Oboe Concerto in C Major 3. Rondo : Allegretto</span>
+                <div>
+                    <span className="black__bg composer">
+                    Wolfgang Amadeus Mozart
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[6]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Andrew Dotterer, oboe (live)</span>
+                </figcaption>
+            </Container>
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Symphony no. 5 II. Tempo Andante, ma rubato</span>
+                <div>
+                    <span className="black__bg composer">
+                    Jean Sibelius
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[7]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
+                </figcaption>
+            </Container>
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Symphony no. 5 III. - IV. Vivacissimo - Finale</span>
+                <div>
+                    <span className="black__bg composer">
+                    Jean Sibelius
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[8]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
+                </figcaption>
+            </Container>
         </div>
-    </BinaryContainer>
+    
     )
 }
+
+// I. Tempo molto moderato – Largamente
