@@ -14,6 +14,57 @@ const audioArr = ["https://mshippoboe.s3.us-west-1.amazonaws.com/AD+Recital+2+Te
 export default function Music() {
     return (
         <div className="music_container">
+             <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Symphony no. 5 III. Andante mosso, quasi allegretto</span>
+                <div>
+                    <span className="black__bg composer">
+                    Jean Sibelius
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[7]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
+                </figcaption>
+            </Container>
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Symphony no. 5 IV. Allegro molto</span>
+                <div>
+                    <span className="black__bg composer">
+                    Jean Sibelius
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[8]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
+                </figcaption>
+            </Container>
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">The Italian Girl in Algiers Overture</span>
+                <div>
+                    <span className="black__bg composer">
+                    Gioachino Rossini
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[9]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
+                </figcaption>
+            </Container>
+
             <Container>
                 <figcaption className="audio__title_composer">
                 <span className="audio_title">Fantasia No. 2 in A Minor I. Grave</span>
@@ -133,56 +184,7 @@ export default function Music() {
                 </figcaption>
             </Container>
 
-            <Container>
-                <figcaption className="audio__title_composer">
-                <span className="audio_title">Symphony no. 5 III. Andante mosso, quasi allegretto</span>
-                <div>
-                    <span className="black__bg composer">
-                    Jean Sibelius
-                    </span>
-                </div>
-                </figcaption>
-                
-                <audio controls src={audioArr[7]}></audio>
-                
-                <figcaption className="audio__performers">
-                <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
-                </figcaption>
-            </Container>
-
-            <Container>
-                <figcaption className="audio__title_composer">
-                <span className="audio_title">Symphony no. 5 IV. Allegro molto</span>
-                <div>
-                    <span className="black__bg composer">
-                    Jean Sibelius
-                    </span>
-                </div>
-                </figcaption>
-                
-                <audio controls src={audioArr[8]}></audio>
-                
-                <figcaption className="audio__performers">
-                <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
-                </figcaption>
-            </Container>
-
-            <Container>
-                <figcaption className="audio__title_composer">
-                <span className="audio_title">The Italian Girl in Algiers Overture</span>
-                <div>
-                    <span className="black__bg composer">
-                    Gioachino Rossini
-                    </span>
-                </div>
-                </figcaption>
-                
-                <audio controls src={audioArr[9]}></audio>
-                
-                <figcaption className="audio__performers">
-                <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
-                </figcaption>
-            </Container>
+           
         </div>
     
     )
