@@ -55,7 +55,24 @@ export default function Music() {
 
             <Container>
                 <figcaption className="audio__title_composer">
-                <span className="audio_title">Symphony no. 5 IV. Allegro molto</span>
+                <span className="audio_title">Symphony no. 5 II. Andante mosso, quasi allegretto</span>
+                <div>
+                    <span className="black__bg composer">
+                    Jean Sibelius
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[7]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
+                </figcaption>
+            </Container>
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Symphony no. 5 III. Allegro molto</span>
                 <div>
                     <span className="black__bg composer">
                     Jean Sibelius
