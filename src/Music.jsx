@@ -9,22 +9,44 @@ const audioArr = ["https://mshippoboe.s3.us-west-1.amazonaws.com/AD+Recital+2+Te
                 "https://mshippoboe.s3.us-west-1.amazonaws.com/AD+Recital+2+Mozart+3.mp3",
                 "https://mshippoboe.s3.us-west-1.amazonaws.com/Sibelius+II.mp3",
                 "https://mshippoboe.s3.us-west-1.amazonaws.com/Sibelius+III.mp3",
-                "https://mshippoboe.s3.us-west-1.amazonaws.com/1+Rossini+Italian+Girl+Overt.mp3"
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/1+Rossini+Italian+Girl+Overt.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/maw_holst_venus.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/maw_holst_mercury.mp3",
+                "https://mshippoboe.s3.us-west-1.amazonaws.com/temple_barber1.mp3"
                 ]
 export default function Music() {
     return (
+        
         <div className="music_container">
-             <Container>
+          
+          <Container>
                 <figcaption className="audio__title_composer">
-                <span className="audio_title">Symphony no. 5 III. Andante mosso, quasi allegretto</span>
+                <span className="audio_title">Planets: Venus (fragment)</span>
                 <div>
                     <span className="black__bg composer">
-                    Jean Sibelius
+                    Gustav Holst
                     </span>
                 </div>
                 </figcaption>
                 
-                <audio controls src={audioArr[7]}></audio>
+                <audio controls src={audioArr[10]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
+                </figcaption>
+            </Container>
+
+             <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Planets: Mercury(fragment)</span>
+                <div>
+                    <span className="black__bg composer">
+                    Gustav Holst
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[11]}></audio>
                 
                 <figcaption className="audio__performers">
                 <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
@@ -62,6 +84,24 @@ export default function Music() {
                 
                 <figcaption className="audio__performers">
                 <span className="black__bg">Music Academy of the West Orchestra <br /> Andrew Dotterer oboe I (live)</span>
+                </figcaption>
+            </Container>
+
+
+            <Container>
+                <figcaption className="audio__title_composer">
+                <span className="audio_title">Symphony No. 1 (fragment) </span>
+                <div>
+                    <span className="black__bg composer">
+                    Samuel Barber
+                    </span>
+                </div>
+                </figcaption>
+                
+                <audio controls src={audioArr[12]}></audio>
+                
+                <figcaption className="audio__performers">
+                <span className="black__bg">Temple University Orchestra <br /> Andrew Dotterer oboe I (live)</span>
                 </figcaption>
             </Container>
 
