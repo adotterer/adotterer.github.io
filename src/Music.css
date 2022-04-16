@@ -23,3 +23,12 @@
         align-items: center;
     }
 }
+.coffeecontainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+}
+.coffeecontainer img {
+    height: 3em;
+}

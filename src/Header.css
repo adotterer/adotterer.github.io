@@ -123,3 +123,22 @@ header > ul > li:hover {
         white-space: nowrap;
     }
 }
+
+#profiletag {
+    background-color: #73A1A4;
+    color: black;
+    padding: 0.4em;
+    border-radius: 1.2em;
+    justify-content: center;
+    align-items: center;
+    font-size: .8em;
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    bottom: 0;
+    right: 0;
+}
+
+#profiletag img {
+    height: 2em;
+}
