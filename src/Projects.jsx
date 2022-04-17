@@ -5,7 +5,7 @@ const imgArr = [
   "https://mshippoboe.s3.us-west-1.amazonaws.com/fido_finder.f47bcfe0.png",
   "https://mshippoboe.s3.us-west-1.amazonaws.com/airbnb_og_meta.12a2c027.png",
   "https://mshippoboe.s3.us-west-1.amazonaws.com/GG_meta_img.068418f6.png",
-  "https://mshippoboe.s3.us-west-1.amazonaws.com/mshippoboe_feature_project",
+  "https://mshippoboe.s3.us-west-1.amazonaws.com/mshippoboe_feature_project.png",
 ];
 
 function FeatureLinkIcons({ liveURL, codeURL }) {
