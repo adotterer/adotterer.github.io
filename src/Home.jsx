@@ -94,6 +94,7 @@ export default function Home() {
   const socialRef = useRef(null);
 
   useEffect(() => {
+    window.location.replace("https://www.adotterer.com/");
     const skillArr = [
       "JavaScript",
       "TypeScript",
